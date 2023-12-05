@@ -1,10 +1,10 @@
-# [AdventJS 2022 challenges solutions](https://adventjs.dev)
+# [Adventjs challenges solutions](https://adventjs.dev)
 
 This repository contains the solutions for the series of christmas themed JavaScript/TypeScript challenges made by Miguel Ángel Durán García, A.K.A midudev.
 
 ## Testing
 
-Each folder contains an individual challenge with its tests, which are based on the public tests available for each one of these challenges on AdventJS website.
+Each folder contains an individual challenge with its tests, which are based on the public tests available for each one of these challenges on Adventjs website.
 
 To run the tests:
 
