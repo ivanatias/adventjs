@@ -1,0 +1,27 @@
+{
+  "name": "adventjs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier '**/**/*.js' --write",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest --watchAll",
+    "test:2023": "pnpm test -- --testPathPattern=2023",
+    "test:2022": "pnpm test -- --testPathPattern=2022"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "29.7.0",
+    "eslint": "8.55.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "prettier": "3.1.0"
+  }
+}
