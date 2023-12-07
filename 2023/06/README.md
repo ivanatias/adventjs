@@ -8,7 +8,7 @@ For this, they have a text string movements where each character represents the 
 - **< = Moves to the left**
 - **\* = Can move forward or backward**
 
-For example, if the movement is ``>>*<`, it goes to the right twice, then it can go either left or right (whichever maximizes the final traveled distance) and then left.
+For example, if the movement is `>>*<`, it goes to the right twice, then it can go either left or right (whichever maximizes the final traveled distance) and then left.
 
 The elves want to know what the maximum distance the reindeer travels is after completing all movements.
 
